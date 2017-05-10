@@ -1,0 +1,9 @@
+mailchimp:
+  app_key: "8230641d21e1e397f79dc316b67ba296-us15"
+  username: "hetmantsev"
+  lists_ids: ["82a6ce6c28"]
+mysql:
+  user: "root"
+  host: '192.168.1.125'
+  port: 3306
+  dbname: 'edxapp'
