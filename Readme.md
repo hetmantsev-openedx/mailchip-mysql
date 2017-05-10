@@ -1,4 +1,4 @@
-##Simple script for interaction with mailchimp
+## Simple script for interaction with mailchimp
 
 For using execute next commands.
 
