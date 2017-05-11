@@ -134,8 +134,8 @@ def main():
     #pull users to mailchimp
     for item in needfull_list:
         client.lists.members.create(list_id=list_id, data=item)
-        #cur_len -= 1
-        #print cur_len
+
+    #check sent data
     req_after = client.lists.members.all(list_id, count=2000, offset=0)
     logging.info(u'Должно было залиться {expected_amount} записей. Было залито: {actual_amount}'.format(
             expected_amount=must_be_users_amount,
