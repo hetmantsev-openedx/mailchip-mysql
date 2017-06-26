@@ -7,4 +7,5 @@ exit 1
 
 echo "All packages are installed."
 
-#test
+#test 2
+gsdg
