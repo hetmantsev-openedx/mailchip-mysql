@@ -6,3 +6,5 @@ sudo pip install sqlsoup requests mailchimp3 pyyaml trafaret trafaret-config
 exit 1
 
 echo "All packages are installed."
+
+#test
